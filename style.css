@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --main-font:;
+    --main-style:;
+    --hover-color:;
+    
+    --white:;
+    --black:;
+    --light-white:;
+    --light-black:;
+
+    --border:;
+
+    --box-shadow:;
+    --text-shadow:;
+ 
+}
+.btn{
+    padding:10px;
+    margin: 5px;
+    color: chartreuse;
+    background-color: black;
+}
+.btn:hover{
+    color: aqua;
+    background-color: #fff;
+}
+.img-responsive{
+    width: 100%;
+}
+.wrapper{
+    margin: 10px 5px;
+}
+
+.topbar{
+    /* height: 1vh; */
+    border-radius: 5px;
+    background-color: 0C134F;
+    /* margin: 5px auto; */
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar .contact ul{
+    list-style: none;
+}
+.topbar .contact ul li{
+    display: inline;
+}
+.topbar .contact ul li a{
+    display: inline;
+    color: 05BFDB;
+}
+.topbar .contact ul li a:hover{
+    color: white;
+}
+.topbar-links{
+    padding: 5px;
+    margin: 2px;
+}
+
+.topbar .social-links ul{
+    list-style: none;
+}
+.topbar .social-links ul li{
+    display: inline;
+}
+.topbar .social-links ul li a{
+    
+}
+.topbar .social-links ul li a:hover{
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline;
+}
+.navigation ul li a{
+    text-decoration: none;
+    /* display: block; */
+}
+.body container{
+
+}
+.body .box{
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+}
